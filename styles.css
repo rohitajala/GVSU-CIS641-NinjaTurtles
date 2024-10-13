@@ -1,0 +1,67 @@
+/* Style for the entire body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('image.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+/* Style for the header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #f8f8f8;
+}
+
+/* Style for the main content */
+section {
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #f8f8f8;
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #4caf50;
+}
+
+/* Ensure links are distinct */
+a {
+    color: #ffeb3b;
+}
+
+/* Add some padding to ensure text doesn’t touch the edge of the section */
+section p, ul {
+    padding-left: 15px;
+    padding-right: 15px;
+}
