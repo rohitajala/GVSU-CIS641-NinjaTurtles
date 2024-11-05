@@ -3,7 +3,6 @@
 Team Name: Ninja Turtles
 
 Members Present:
-
 Priyadarshini Chadalawada
 Rohita Jahnavi Jala
 Chanikya Boggarapu

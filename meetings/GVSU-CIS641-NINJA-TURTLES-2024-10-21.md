@@ -3,7 +3,6 @@
 Team Name: Ninja Turtles
 
 Members Present:
-
 Priyadarshini Chadalawada
 Rohita Jahnavi Jala
 Chanikya Boggarapu
@@ -13,7 +12,6 @@ Date: 10/21/2024
 Time: 5:00 PM
 
 ### Discussion Points:
-
 •	Finalized the structure and key elements for the project presentation.
 •	Discussed the data collection process and methods for gathering accurate car-related information.
 •	Reviewed initial steps for creating the main webpage layout and navigation.
