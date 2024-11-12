@@ -3,6 +3,7 @@
 Team Name: Ninja Turtles
 
 Members Present:
+
 Priyadarshini Chadalawada
 
 Rohita Jahnavi Jala
@@ -11,6 +12,7 @@ Chanikya Boggarapu
 
 
 Date: 11/05/2024 
+
 Time: 5:00 PM 
 
 ### Discussion Points: 
