@@ -1,103 +1,717 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CarChoice: Discover Your Ideal Four-Wheeler</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
         
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif; 
-            background-image: url('image.jpg');
-            background-size: cover; 
-            background-position: center;
-            background-attachment: fixed;
-            color: #ffffff;
-        }
+        <!-- title of site -->
+        <title>CarVilla</title>
 
-        h1, h2, h3 {
-            font-size: 24px; 
-            color: #ffffff; 
-        }
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-        p {
-            font-size: 18px; 
-        }
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
 
-        ul {
-            list-style-type: none; 
-            padding: 0; 
-        }
+        <!--flaticon.css-->
+		<link rel="stylesheet" href="assets/css/flaticon.css">
 
-        ul li {
-            margin: 5px 0; 
-        }
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
 
-        a {
-            color: #ffffff; 
-            text-decoration: none; 
-        }
+        <!--owl.carousel.css-->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-        a:hover {
-            text-decoration: underline; 
-        }
-    </style>
-</head>
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+	
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
 
-<body>
-    <header>
-        <h1>CarChoice: Discover Your Ideal Four-Wheeler</h1>
-    </header>
+			<!-- top-area Start -->
+			<div class="top-area">
+				<div class="header-area">
+					<!-- Start Navigation -->
+				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
 
-    <section>
-        <h2>Project Overview</h2>
-        <p>As international students from India living in the USA, we encountered difficulties navigating the vehicle market in a new country. This challenge inspired the creation of our Vehicle Inventory System, a platform that enables users to compare and explore 4-wheeler vehicles from both the USA and India. Designed specifically for individuals unfamiliar with foreign car brands and models, the platform provides an accessible way to compare vehicle options across both markets.</p>
+				        <div class="container">
 
-        <h3>Key Features</h3>
-        <p>Comprehensive Data Tracking: The system manages data for 4-wheeler vehicles produced between 2010 and 2024, focusing on brands from India and the USA.</p>
-        <p>Side-by-Side Comparisons: Users can compare vehicle models from both countries, exploring specifications and details for each brand and year.</p>
+				            <!-- Start Header Navigation -->
+				            <div class="navbar-header">
+				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				                    <i class="fa fa-bars"></i>
+				                </button>
+				                <a class="navbar-brand" href="index.html">carvilla<span></span></a>
 
-        <h3>Project Artifacts</h3>
-        <ul>
-            <li>
-                <a href="https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/User%20Selection%20Process%20Activity%20Diagram.jpg">User Selection Process Activity Diagram</a>
-                <hr>
-            </li>
-            <li>
-                <a href="https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Home%20Page%20Use%20Case%20Diagram.jpg">Home Page Use Case Diagram</a>
-                <hr>
-            </li>
-            <li>
-                <a href="https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Vehicle%20Comparison%20Process%20Activity%20Diagram.jpg">Vehicle Comparison Process Activity Diagram</a>
-                <hr>
-            </li>
-            <li>
-                <a href="https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Vehicle%20Comparison%20Use%20Case%20Diagram.jpg">Vehicle Comparison Use Case Diagram</a>
-                <hr>
-            </li>
-        </ul>
+				            </div><!--/.navbar-header-->
+				            <!-- End Header Navigation -->
 
-        <h3>Project Documents</h3>
-        <ul>
-            <li>
-                <a href="https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/docs/README.md">Read Me</a>
-                <hr>
-            </li>
-            <li>
-                <a href="https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/docs/proposal-template.md">Proposal Template File</a>
-                <hr>
-            </li>
-            <li>
-                <a
-                    href="https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/docs/srs.md#functional-requirements">Software
-                    Requirements Specification File</a>
-            </li>
-        </ul>
-    </section>
-</body>
+				            <!-- Collect the nav links, forms, and other content for toggling -->
+				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+				                    <li class=" scroll active"><a href="#home">home</a></li>
+									<li class=""><a href="compare.html">Compare Cars</a></li>
+				                    <li class="scroll"><a href="#featured-cars">featured cars</a></li>
+				                    <li class="scroll"><a href="#new-cars">new cars</a></li>
+				                    <li class="scroll"><a href="#brand">brands</a></li>
+				                </ul><!--/.nav -->
+				            </div><!-- /.navbar-collapse -->
+				        </div><!--/.container-->
+				    </nav><!--/nav-->
+				    <!-- End Navigation -->
+				</div><!--/.header-area-->
+			    <div class="clearfix"></div>
 
+			</div><!-- /.top-area-->
+			<!-- top-area End -->
+
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>get your desired car in resonable price</h2>
+					<p>
+						With Carvilla, you are guaranteed to get the best. Get the best listings for any car model.
+					</p>
+					
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="model-search-content">
+							<div class="row">
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>Select Country</h2>
+										<div class="model-select-icon">
+											<select class="form-control" id="country" onchange="updateMakes()">
+												<option value="default">Country</option>
+												<option value="india">India</option>
+												<option value="usa">USA</option>
+											</select>
+										</div>
+									</div>
+									<!--<div class="single-model-search">
+										<h2>Select Style</h2>
+										<div class="model-select-icon">
+											<select class="form-control" id="style">
+												<option value="default">Style</option>
+												<option value="sedan">Sedan</option>
+												<option value="van">Van</option>
+												<option value="roadster">Roadster</option>
+											</select>
+										</div>
+									</div> -->
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>Select Brand</h2>
+										<div class="model-select-icon">
+											<select class="form-control" id="make" onchange="updateModels()">
+												<option value="default">Brand</option>
+												<option value="tata">Tata</option>
+												<option value="mahindra">Mahindra</option>
+												<option value="maruti">Maruti Suzuki</option>
+												<option value="ford">Ford</option>
+												<option value="chevrolet">Chevrolet</option>
+												<option value="tesla">Tesla</option>
+											</select>
+										</div>
+									</div>
+									<div class="single-model-search">
+										<h2>Select Year</h2>
+										<div class="model-select-icon">
+											<select class="form-control" id="year">
+												<option value="default">Year</option>
+												<option value="2022">2022</option>
+												<option value="2021">2021</option>
+												<option value="2020">2020</option>
+												<option value="2019">2019</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>Select Model</h2>
+										<div class="model-select-icon">
+											<select class="form-control" id="model" onModelSelect()>
+												<option value="default">Model</option>
+												<option value="Tata Nexon">Tata Nexon</option>
+												<option value="Tata Harrier">Tata Harrier</option>
+												<option value="Tata Altroz">Tata Altroz</option>
+												<option value="Mahindra XUV700">Mahindra XUV700</option>
+												<option value="Mahindra Thar">Mahindra Thar</option>
+												<option value="Mahindra Scorpio">Mahindra Scorpio</option>
+												<option value="Mahindra Bolero">Mahindra Bolero</option>
+												<option value="Maruti Vitara Brezza">Maruti Vitara Brezza</option>
+												<option value="Maruti Swift">Maruti Swift</option>
+												<option value="Maruti Ertiga">Maruti Ertiga</option>
+												<option value="Maruti Dzire">Maruti Dzire</option>
+												<option value="Ford Mustang">Ford Mustang</option>
+												<option value="Ford F-150">Ford F-150</option>
+												<option value="Ford Explorer">Ford Explorer</option>
+												<option value="Ford Escape">Ford Escape</option>
+												<option value="Chevrolet Traverse">Chevrolet Traverse</option>
+												<option value="Chevrolet Silverado">Chevrolet Silverado</option>
+												<option value="Chevrolet Malibu">Chevrolet Malibu</option>
+												<option value="Chevrolet Equinox">Chevrolet Equinox</option>
+												<option value="Tesla Model Y">Tesla Model Y</option>
+												<option value="Tesla Model X">Tesla Model X</option>
+												<option value="Tesla Model S">Tesla Model S</option>
+												<option value="Tesla Model 3">Tesla Model 3</option>
+																							
+											</select>
+										</div>
+									</div>
+									<!-- <div class="single-model-search">
+										<h2>Select Price</h2>
+										<div class="model-select-icon">
+											<select class="form-control" id="price">
+												<option value="default">Price</option>
+												<option value="$0.00">$0.00</option>
+												<option value="$10,000">$10,000</option>
+												<option value="$20,000">$20,000</option>
+											</select>
+										</div>
+									</div> -->
+								</div>
+								<div class="col-md-2 col-sm-12">
+									<div class="single-model-search text-center">
+										<button class="welcome-btn model-search-btn" onclick="searchCars()">
+											Search
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<section id="featured-cars" class="featured-cars">
+			<div class="container">
+				<div class="section-header">
+					<p>checkout <span>the</span> featured cars</p>
+					<h2>Featured Cars</h2>
+				</div><!--/.section-header-->
+				<div class="featured-cars-content">
+					<div class="row" id="featured-cars-list">
+						<!-- Featured cars will be updated dynamically based on selected brand -->
+					</div><!--/.row-->
+				</div><!--/.featured-cars-content-->
+			</div><!--/.container-->
+		</section><!--/.featured-cars-->
+		
+		<!--featured-cars start -->
+		<!--<section id="featured-cars" class="featured-cars">
+			<div class="container">
+				<div class="section-header">
+					<p>checkout <span>the</span> featured cars</p>
+					<h2>featured cars</h2>
+				</div>/.section-header-->
+				<!--<div class="featured-cars-content">
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc1.png" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2017
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">BMW 6-series gran coupe</a></h2>
+									<h3>$89,395</h3>
+									<p>
+										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc2.png" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2017
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">chevrolet camaro <span>wmv20</span></a></h2>
+									<h3>$66,575</h3>
+									<p>
+										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc3.png" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2017
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">lamborghini <span>v520</span></a></h2>
+									<h3>$125,250</h3>
+									<p>
+										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc4.png" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2017
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">audi <span> a3</span> sedan</a></h2>
+									<h3>$95,500</h3>
+									<p>
+										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc4.png" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2017
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">infiniti <span>z5</span></a></h2>
+									<h3>$36,850</h3>
+									<p>
+										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc5.png" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2017
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">porsche <span>718</span> cayman</a></h2>
+									<h3>$48,500</h3>
+									<p>
+										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc7.png" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2017
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#"><span>bmw 8-</span>series coupe</a></h2>
+									<h3>$56,000</h3>
+									<p>
+										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="single-featured-cars">
+								<div class="featured-img-box">
+									<div class="featured-cars-img">
+										<img src="assets/images/featured-cars/fc8.png" alt="cars">
+									</div>
+									<div class="featured-model-info">
+										<p>
+											model: 2017
+											<span class="featured-mi-span"> 3100 mi</span> 
+											<span class="featured-hp-span"> 240HP</span>
+											 automatic
+										</p>
+									</div>
+								</div>
+								<div class="featured-cars-txt">
+									<h2><a href="#">BMW <span> x</span>series-6</a></h2>
+									<h3>$75,800</h3>
+									<p>
+										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non. 
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>--><!--/.container-->
+
+		<!--</section>.featured-cars-->
+		<!--featured-cars end -->
+	
+		<!--new-cars start -->
+		<section id="new-cars" class="new-cars">
+			<div class="container">
+				<div class="section-header">
+					<p>checkout <span>the</span> latest cars</p>
+					<h2>newest cars</h2>
+				</div><!--/.section-header-->
+				<div class="new-cars-content">
+					<div class="owl-carousel owl-theme" id="new-cars-carousel">
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img">
+											<img src="assets/images/new-cars-model/ncm1.jpg" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="#">Kia Stinger GT</a></h2>
+												<p>
+													The Kia Stinger GT is a high-performance sedan that combines sporty aesthetics with a refined driving experience. With its sleek design and powerful engine, it’s perfect for those who want both luxury and excitement.
+												</p>
+												<p class="new-cars-para2">
+													Powered by a turbocharged engine, the Stinger GT offers a thrilling performance, while also boasting an upscale interior and cutting-edge tech features that make every drive a pleasure.
+												</p>
+
+											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+												view details
+											</button>
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img">
+											<img src="assets/images/new-cars-model/ncm2.jpg" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="#">Hyundai Veloster N</a></h2>
+												<p>
+													The Hyundai Veloster N combines performance and style, designed for those who enjoy a thrilling driving experience. With its dynamic handling and bold looks, it offers a sporty alternative to everyday hatchbacks.
+												</p>
+												<p class="new-cars-para2">
+													Equipped with a turbocharged engine, the Veloster N delivers incredible acceleration and agility, making every drive an adventure. It’s a car built for performance enthusiasts who want both speed and fun.
+												</p>
+
+											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+												view details
+											</button>
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->	
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+						<div class="new-cars-item">
+							<div class="single-new-cars-item">
+								<div class="row">
+									<div class="col-md-7 col-sm-12">
+										<div class="new-cars-img">
+											<img src="assets/images/new-cars-model/ncm3.jpg" alt="img"/>
+										</div><!--/.new-cars-img-->
+									</div>
+									<div class="col-md-5 col-sm-12">
+										<div class="new-cars-txt">
+											<h2><a href="#">MG HS PHEV</a></h2>
+											<p>
+												The MG HS PHEV combines a sleek design with hybrid power, offering both efficiency and performance. With a spacious interior and advanced safety features, it's an ideal choice for those seeking a stylish yet practical SUV.
+											</p>
+											<p class="new-cars-para2">
+												Experience the power of a 1.5L turbocharged engine combined with an electric motor, providing a smooth and eco-friendly drive. The MG HS PHEV is the perfect blend of cutting-edge technology and modern design.
+											</p>
+
+											<button class="welcome-btn new-cars-btn" onclick="window.location.href='#'">
+												view details
+											</button>
+										</div><!--/.new-cars-txt-->	
+									</div><!--/.col-->
+								</div><!--/.row-->
+							</div><!--/.single-new-cars-item-->
+						</div><!--/.new-cars-item-->
+					</div><!--/#new-cars-carousel-->
+				</div><!--/.new-cars-content-->
+			</div><!--/.container-->
+
+		</section><!--/.new-cars-->
+		<!--new-cars end -->
+
+
+		
+		<!--brand strat -->
+		<section id="brand"  class="brand">
+			<div class="container">
+				<div class="brand-area">
+					<div class="owl-carousel owl-theme brand-item">
+						<div class="item">
+							<a href="brand.html">
+								<img src="assets/images/brand/br1.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="brand.html">
+								<img src="assets/images/brand/br2.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="brand.html">
+								<img src="assets/images/brand/br3.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="brand.html">
+								<img src="assets/images/brand/br4.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+						<div class="item">
+							<a href="brand.html">
+								<img src="assets/images/brand/br5.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+
+						
+
+						<div class="item">
+							<a href="brand.html">
+								<img src="assets/images/brand/br6.png" alt="brand-image" />
+							</a>
+						</div><!--/.item-->
+					</div><!--/.owl-carousel-->
+				</div><!--/.clients-area-->
+
+			</div><!--/.container-->
+
+		</section><!--/brand-->	
+		<!--brand end -->
+
+		<!--blog start -->
+		<section id="blog" class="blog"></section><!--/.blog-->
+		<!--blog end -->
+
+		<!--contact start-->
+		<footer id="contact"  class="contact">
+			<div class="container">
+				<div class="footer-top">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="single-footer-widget">
+								<div class="footer-logo">
+									<a href="index.html">carvilla</a>
+								</div>
+								<p>
+									Discover diverse car models, offering performance, style, and reliability.
+								</p>
+								<div class="footer-contact">
+									<p>info@carvilla.com</p>
+									<p>+1 616-242-5760</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="single-footer-widget">
+								<h2>about devloon</h2>
+								<ul>
+									<li><a href="#">about us</a></li>
+									<li><a href="#">career</a></li>
+									<li><a href="#">terms <span> of service</span></a></li>
+									<li><a href="#">privacy policy</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-12">
+							<div class="single-footer-widget">
+								<h2>top brands</h2>
+								<div class="row">
+									<div class="col-md-7 col-xs-6">
+										<ul>
+											<li><a href="brand.html">Tata</a></li>
+											<li><a href="brand.html">Mahindra</a></li>
+											<li><a href="brand.html">Maruti</a></li>
+											<li><a href="brand.html">Ford</a></li>
+											
+										</ul>
+									</div>
+									<div class="col-md-5 col-xs-6">
+										<ul>
+											<li><a href="brand.html">Tesla</a></li>
+											<li><a href="brand.html">Chevrolet</a></li>
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-offset-1 col-md-3 col-sm-6">
+							<div class="single-footer-widget">
+								<h2>news letter</h2>
+								<div class="footer-newsletter">
+									<p>
+										Subscribe to get latest news  update and informations
+									</p>
+								</div>
+								<div class="hm-foot-email">
+									<div class="foot-email-box">
+										<input type="text" class="form-control" placeholder="Add Email">
+									</div><!--/.foot-email-box-->
+									<div class="foot-email-subscribe">
+										<span><i class="fa fa-arrow-right"></i></span>
+									</div><!--/.foot-email-icon-->
+								</div><!--/.hm-foot-email-->
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.contact-->
+		<!--contact end-->
+
+
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+
+		<script src="assets/js/update_form.js"></script>
+		<script src="assets/js/form_control.js"></script>
+		<script src="assets/js/car_model.js"></script>
+		<!--<script src="assets/js/main.js"></script>-->
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+		<!--owl.carousel.js-->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
 </html>
