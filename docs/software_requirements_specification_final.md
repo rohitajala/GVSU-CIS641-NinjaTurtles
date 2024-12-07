@@ -173,14 +173,14 @@ Using feedback mechanism that allows users to report issues or share feedback di
 
 This section showcases the key software artifacts for our CarChoice project, such as Use Case, Activity, Class, Object, and Navigation diagrams. These artifacts, available through the provided links, offer visual representations of different system components, from user interactions to overall architecture. They provide stakeholders with a clear and detailed view of the project's design and functionality, ensuring a thorough understanding.
 
-*[I am User and Vehicle Activity diagram link] ( https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Activity%20Diagrams%20Final.pdf )
+*[I am User and Vehicle Activity diagram link] (https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Activity%20Diagrams%20Final.pdf)
 
-*[I am CRC Card diagram link] ( https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/CRC%20Card%20Final.jpeg )
+*[I am CRC Card diagram link] (https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/CRC%20Card%20Final.jpeg)
 
-*[I am Class Specification diagram link] ( https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Class%20Specifications%20Final.docx )
+*[I am Class Specification diagram link] (https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Class%20Specifications%20Final.docx)
 
-*[I am Navigation diagram link] ( https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Navigation%20Diagram%20Final.pdf )
+*[I am Navigation diagram link] (https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Navigation%20Diagram%20Final.pdf)
 
-*[I am Sequence and State Machine diagram link] ( https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Sequence%20and%20State%20Machine%20Diagram%20Final.docx )
+*[I am Sequence and State Machine diagram link] (https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Sequence%20and%20State%20Machine%20Diagram%20Final.docx)
 
-*[I am User UseCase diagram link] ( https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Use%20case%20diagrams%20Final.pdf )
+*[I am User UseCase diagram link] (https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/blob/main/artifacts/Use%20case%20diagrams%20Final.pdf)
