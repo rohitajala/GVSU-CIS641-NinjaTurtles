@@ -37,8 +37,6 @@ Open your terminal/command prompt and navigate to the folder where you want to s
 git clone https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/
 ```
 
-Replace `yourusername` with your actual GitHub username.
-
 **Navigate to the Project Directory**:
 
 After cloning the repository, navigate to the project folder:
