@@ -34,7 +34,7 @@ Follow the steps below to set up the project on your local machine:
 Open your terminal/command prompt and navigate to the folder where you want to store this project. Then clone the GitHub repository using the following command:
 
 ```bash
-git clone https://github.com/yourusername/4-wheeler-vehicle-inventory-system.git
+git clone https://github.com/rohitajala/GVSU-CIS641-NinjaTurtles/
 ```
 
 Replace `yourusername` with your actual GitHub username.
@@ -44,7 +44,7 @@ Replace `yourusername` with your actual GitHub username.
 After cloning the repository, navigate to the project folder:
 
 ```bash
-cd 4-wheeler-vehicle-inventory-system
+cd GVSU-CIS641-NinjaTurtles
 ```
 
 **Explore the Project Files**
@@ -103,4 +103,3 @@ We hope this project helps you with your car research and comparisons. If you'd 
 - User-friendly interface for comparing cars.
 - Hard-coded database with car information (mileage, year, price, etc.).
 - Deployed on GitHub Pages for easy access and use.
-
